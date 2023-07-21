@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: rgb(158, 162, 166);
+    height: 10vh;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    font-size: 3.5vw;
+    height: 80vh;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.div1,
+.div3 {
+    flex: 1;
+    background-color: rgb(171, 173, 175);
+}
+
+.div2 {
+    flex: 2;
+    background-color: rgb(105, 106, 108);
+}
+
+footer {
+    font-size: 1.8vw;
+    text-align: center;
+    background-color: rgb(158, 162, 166);
+    height: 10vh;
+}
